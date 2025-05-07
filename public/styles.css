@@ -218,7 +218,7 @@ body {
   }
   .all-movies-button{
     display: flex;
-    margin-right: 23cm;
+    margin-right: 10rem;
   }
   .all-movies-button button{
     display: flex;
