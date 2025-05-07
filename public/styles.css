@@ -1,0 +1,246 @@
+.container {
+  width:100%;
+  min-height:100vh;
+  background: linear-gradient(135deg, #f9b3b3, #8b9dff);
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.container h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  align-items: center;
+}
+
+.rank-app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #fdfeff;
+    color: #000000;
+    text-align:center;
+    position:relative;
+  }
+
+  h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #categories{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    flex-wrap: wrap;
+  }
+  .catagory-card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .category-card button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border:#000000;
+    border-radius: 12px;
+    background: #d7e0ff;
+    color: #111;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.2s ease;
+  }
+  .category-card a{
+    text-decoration: none;
+
+  }
+  .category-card button:hover{
+    transform: scale(1.15);
+    background: #adbdff;
+  }
+  .category-card svg {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 0.3rem;
+  }
+  .home-button{
+    display: flex;
+  }
+  .home-button button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    padding:2px;
+    border:none;
+    border-radius: 30px;
+    gap: 0.5px;
+    cursor: pointer;
+  }
+  .home-button svg{
+    width:40px;
+    margin-bottom: -4px;
+    margin-top: 1px;
+  }
+  .home-button button:hover{
+    background-color: #edff88;
+  }
+  .home-button a{
+    text-decoration: none;
+  }
+  .rank-box{
+    background-color:#efc4f5;
+    padding: 1rem, 2rem;
+    border-radius: 13px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    min-width: 20rem;
+    min-height: 10rem;
+  }
+  .rank-box ul{
+    padding: 0;
+    margin-left:2rem;
+    list-style: none;
+    text-align: left;
+  }
+  .rank-box li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  .search-box{
+    display: flex;
+    justify-content: center;
+    gap:0.5rem;
+    margin-bottom: 1rem;
+  }
+  .search-box input{
+    padding:0.5rem;
+    font-size: 1rem;
+    border-radius: 13px;
+    border:1px solid #ff8ddb;
+    width: 200px;
+  }
+  .search-box button{
+    padding:0.5rem 1rem;
+    border-radius: 13px;
+    border:none;
+    cursor: pointer;
+  }
+  .search-box button:hover{
+    background-color: #ffbaf8;
+  }
+  #rating-input{
+    width:5rem;
+  }
+
+  #logout-button{
+    padding:0.5rem;
+    border-radius: 6px;
+    border:1px solid #ccc;
+    cursor: pointer;
+    margin-top: 4rem;
+  }
+  #logout-button:hover{
+    background-color: #8b9dff;
+ 
+  }
+  #username-input{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+  }
+  #welcome-message{
+    justify-content: center;
+  }
+  .login-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .login-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  .login-box{
+    display:flex;
+    justify-content: flex-end;
+    gap:0.5rem;
+  }
+  .login-box input, .login-box button{
+    padding:0.5rem;
+    border-radius: 6px;
+    border:1px solid #ccc;
+  }
+  .login-box button{
+    padding:0.5rem;
+    border-radius: 6px;
+    border:1px solid #ccc;
+    cursor: pointer;
+  }
+  .login-box button:hover{
+    background-color: #8b9dff;
+ 
+  }
+  .home-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  .movie-box ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin:1rem;
+
+  }
+  .all-movies-button{
+    display: flex;
+    margin-right: 23cm;
+  }
+  .all-movies-button button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    padding:2px;
+    border:none;
+    border-radius: 30px;
+    gap: 0.5px;
+    cursor: pointer;
+  }
+  .all-movies-button svg{
+    width:40px;
+    margin-bottom: -4px;
+    margin-top: 1px;
+  }
+  .all-movies-button button:hover{
+    background-color: #edff88;
+  }
+  .all-movies-button a{
+    text-decoration: none;
+  }
