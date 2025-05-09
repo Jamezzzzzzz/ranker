@@ -244,3 +244,31 @@ body {
   .all-movies-button a{
     text-decoration: none;
   }
+.back-button{
+    display: flex;
+    margin-right: 55rem;
+  }
+  .back-button button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    padding:2px;
+    border:none;
+    border-radius: 30px;
+    gap: 0.5px;
+    cursor: pointer;
+  }
+  .back-button svg{
+    width:40px;
+    margin-bottom: -4px;
+    margin-top: 1px;
+  }
+  .back-button button:hover{
+    background-color: #edff88;
+  }
+  .back-button a{
+    text-decoration: none;
+  }
